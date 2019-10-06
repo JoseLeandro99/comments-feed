@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://main:oPj0GlWepbNlwqGr@apps-rsqn4.mongodb.net/commentsFeed?retryWrites=true&w=majority', {
+mongoose.connect('localhost', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
